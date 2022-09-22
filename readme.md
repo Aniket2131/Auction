@@ -5,7 +5,7 @@ https://goerli.etherscan.io/tx/0xa27add9b273d76d1313193daa8a26a2a53919aa29172ae6
 
 steps for Auction contract:
 
-1. Before deploying one need to add an address of the owner of auction which is asked in the constructor at line 16, which will be set on the global variable named ayctioneer.
+1. Before deploying one need to add an address of the owner of auction which is asked in the constructor at line 16, which will be set on the global variable named auctioneer.
 2. After Deploying one need to run start contract function of line 25 by giving the time interval in second, till which the auction will be live. This function will make the global variable named auction Started to be true as it was false by default.
 3. start contract function is only run by the auctioneer which is stated in the modifiew at line 21.
 4. Now any one can place a bid and its name and value is going to store in the global variable higgesh bidder and highest bid respectively.
