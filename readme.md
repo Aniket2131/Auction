@@ -1,3 +1,5 @@
+This is the updated code of the SimpleAuction contract with more functionalities.
+
 Contract Deployed at:
 Etherscan url:
 
